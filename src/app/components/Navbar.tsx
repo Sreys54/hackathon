@@ -11,6 +11,24 @@ export default function Navbar() {
           <Link href="/" className="hover:text-gray-300">
             Home
           </Link>
+          <Link href="/reto1" className="hover:text-gray-300">
+            Reto 1
+            </Link>
+        <Link href="/reto2" className="hover:text-gray-300">
+            Reto 2
+          </Link>
+        <Link href="/reto3" className="hover:text-gray-300">
+            Reto 3
+          </Link>
+        <Link href="/reto4" className="hover:text-gray-300">
+            Reto 4
+          </Link>
+        <Link href="/reto5" className="hover:text-gray-300">
+            Reto 5
+          </Link>
+        <Link href="/reto6" className="hover:text-gray-300">
+            Reto 6
+          </Link>
         </div>
       </div>
     </nav>

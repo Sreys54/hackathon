@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8">
       <h1 className="text-4xl font-bold mb-8">Equipo 1 - Hackathon</h1>
-      <p className="text-xl mb-12">Selecciona un reto:</p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl">
         <Link href="/reto1">

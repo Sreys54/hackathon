@@ -1,0 +1,33 @@
+.container {
+  max-width: 760px;
+  margin: 48px auto;
+  text-align: center;
+  padding: 28px;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.track {
+  position: relative;
+  height: 24px;
+  background: #d8d8d8;
+  border-radius: 20px;
+  margin: 0 auto 18px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #ff8b8b;
+  border-radius: 20px 0 0 20px;
+  transition: width 200ms ease;
+}
+

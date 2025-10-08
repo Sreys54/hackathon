@@ -1,4 +1,7 @@
+'use client';
 import Image from "next/image";
+import ProgressBarExample from './progressBar/ProgressBarExample';
+
 
 export default function Home() {
   return (
@@ -50,6 +53,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <ProgressBarExample />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
